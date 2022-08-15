@@ -1,0 +1,15 @@
+<div class="p-4" >
+  <h1>Stupid Coaching</h1>
+
+  <div class="border-start border-5 alert alert-light">
+    <p><%= @question %></p>
+    <p>--You</p>
+  </div>
+
+  <div class="border-start border-5 alert alert-warning">
+    <p> <%= @answer %></p>
+    <p>--Coach</p>
+  </div>
+
+ <p class="text-decoration-none"><%= link_to "Ask a new question", ask_path %></p>
+</div>
